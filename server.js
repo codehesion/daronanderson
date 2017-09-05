@@ -19,6 +19,7 @@ const MongoStore   = require('connect-mongo')(session);
 /* Configure */
 const port     = process.env.PORT || 3000;
 const configDB = require('./config/database.js');
+mongoose.Promise = global.Promise;
 mongoose.connect(configDB.url);
 require('./config/passport')(passport);
 app.use(cookieParser());
