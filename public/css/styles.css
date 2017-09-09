@@ -19,6 +19,14 @@ body {
 	background-size: cover;	
 }
 
+.bg-oakland {
+	background: url(/images/oakland.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
 #profile-image {
 	position: relative;
 	display: block;
