@@ -9,6 +9,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+
 }
 
 .bg-delsol {
@@ -38,10 +39,23 @@ body {
 
 
 
+
 .card {
 	border-radius: 0px;
+	text-align: center;
+	background-color: black;
+	color: #E3C871;
 }
 
+
+
+
+footer {
+	background-color: black;
+	color: #E3C871;
+}
+
+.navwrap {color: blue;}
 
 /* Bootstrap 4 Media Queries */
 
@@ -65,3 +79,5 @@ body {
 @media (min-width: 1200px) { 
 
 }
+
+
