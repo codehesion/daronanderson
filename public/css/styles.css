@@ -48,15 +48,15 @@ body {
 	color: #E3C871;
 }
 
-
-
-
 footer {
 	background-color: black;
 	color: #E3C871;
 }
 
-.navwrap {color: blue;}
+p:hover {
+	background-color: white;
+	text-align: center;
+}
 
 /* Bootstrap 4 Media Queries */
 
