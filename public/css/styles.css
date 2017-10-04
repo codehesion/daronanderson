@@ -38,6 +38,11 @@ body {
 	margin: 20px auto 0px auto;
 }
 
+p:hover {
+	background-color: white;
+	text-align: center;
+
+}
 
 
 
@@ -46,15 +51,12 @@ body {
 	text-align: center;
 	background-color: black;
 	color: #E3C871;
+	font-size: 20px;
 }
 
 footer {
 	background-color: black;
 	color: #E3C871;
-}
-
-p:hover {
-	background-color: white;
 	text-align: center;
 }
 
