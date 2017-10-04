@@ -38,14 +38,6 @@ body {
 	margin: 20px auto 0px auto;
 }
 
-p:hover {
-	border-radius: 20px;
-	background-color: white;
-	text-align: center;
-
-}
-
-
 
 .card {
 	border-radius: 0px;
@@ -60,6 +52,36 @@ footer {
 	background-color: black;
 	color: #E3C871;
 	text-align: center;
+}
+
+
+p:hover {
+
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+  	animation: colorchange 25s; 
+  /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 25s; /* Chrome and Safari */
+}
+
+@keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: #40ff00;}
+  100% {background: red;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: #40ff00;}
+  100% {background: red;}
 }
 
 /* Bootstrap 4 Media Queries */
