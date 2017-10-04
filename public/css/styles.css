@@ -49,6 +49,7 @@ p:hover {
 
 .card {
 	border-radius: 0px;
+	padding: 2.00rem;
 	text-align: center;
 	background-color: black;
 	color: #E3C871;
