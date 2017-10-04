@@ -39,6 +39,7 @@ body {
 }
 
 p:hover {
+	border-radius: 20px;
 	background-color: white;
 	text-align: center;
 
