@@ -39,24 +39,54 @@ body {
 }
 
 
+
 .card {
 	border-radius: 0px;
 	padding: 2.00rem;
 	text-align: center;
 	background-color: black;
-	color: #E3C871;
 	font-size: 20px;
+	color: black;
 }
+
+.card-block:hover {
+	animation: colorchange 25s; 
+  /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 25s; /* Chrome and Safari */
+
+}
+
+@keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: #40ff00;}
+  100% {background: red;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: #40ff00;}
+  100% {background: red;}
+}
+
+
+
 
 footer {
 	background-color: black;
-	color: #E3C871;
+	color: black;
 	text-align: center;
 }
 
 
 p:hover {
-
+	color: black;
 	border-radius: 20px;
 	background-color: white;
 	text-align: center;
