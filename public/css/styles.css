@@ -38,8 +38,6 @@ body {
 	margin: 20px auto 0px auto;
 }
 
-
-
 .card {
 	border-radius: 0px;
 	padding: 2.00rem;
@@ -76,14 +74,11 @@ body {
 }
 
 
-
-
 footer {
 	background-color: black;
 	color: black;
 	text-align: center;
 }
-
 
 p:hover {
 	color: black;
