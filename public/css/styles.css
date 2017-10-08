@@ -42,12 +42,12 @@ body {
 	border-radius: 0px;
 	padding: 2.00rem;
 	text-align: center;
-	background-color: black;
+	background-color: white;
 	font-size: 20px;
 	color: black;
 }
 
-.card-block:hover {
+.card-block {
 	animation: colorchange 25s; 
   /* animation-name followed by duration in seconds*/
   /* you could also use milliseconds (ms) or something like 2.5s */
