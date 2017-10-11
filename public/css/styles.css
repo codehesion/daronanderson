@@ -80,7 +80,7 @@ footer {
 	text-align: center;
 }
 
-p:hover {
+p {
 	color: black;
 	border-radius: 20px;
 	background-color: white;
