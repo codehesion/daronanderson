@@ -40,7 +40,7 @@ body {
 
 .card {
 	border: solid 2px yellow;
-	border-radius: 0px;
+	border-radius: 20px;
 	padding: 2.00rem;
 	text-align: center;
 	background-color: white;
