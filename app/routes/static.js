@@ -19,25 +19,25 @@ module.exports = function(app) {
 
   //talent 
 
-/*app.get('/music', function(req, res) {
+app.get('/music', function(req, res) {
         res.render('static/music.ejs', {
             title : "music",
         });
-    }); */
+    }); 
 
 /*Uncomment vv to vv add vv route vv and vv change vv to vv desired vv exten.*/
-//app.get('/talent', function(req, res) {
-       // res.render('static/talent.ejs', {
-           // title : "talent",
-        //});
-    //});
+/*app.get('/talent', function(req, res) {
+        res.render('static/talent.ejs', {
+            title : "talent",
+        });
+    });
 
-    //app.get('/talent', function(req, res) {
-        //res.render('static/talent.ejs', {
-            //title : "talent",
-        //});
-    //});
-
+   /* app.get('/talent', function(req, res) {
+        res.render('static/talent.ejs', {
+            title : "talent",
+        });
+    });
+*/
 
     /* Sign S3 Requests */
     app.get('/sign-s3', function(req, res) {
