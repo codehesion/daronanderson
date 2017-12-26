@@ -60,6 +60,6 @@ require('./app/routes/users.js')(app);
 
 /* Launch */
 app.listen(port, function () {
-	console.log('Application Started...');
+	console.log('I think your application started');
 	console.log('Open your browser and go to localhost:' + port);
 });
